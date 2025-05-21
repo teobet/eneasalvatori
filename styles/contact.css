@@ -1,0 +1,21 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desktop {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
