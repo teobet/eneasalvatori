@@ -1,0 +1,31 @@
+:root {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desktop {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f3ef;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.card {
+    width: 500px;
+}
+
+/*
+
+*/
