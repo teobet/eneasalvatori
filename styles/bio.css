@@ -20,10 +20,41 @@ body {
 
     user-select: none;
     -webkit-user-select: none;
+
+    display: none;
 }
 
-.card {
+.mobile{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f3ef;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.desktop-card {
     width: 500px;
+}
+
+.mobile-card {
+    font-size: 10pt;
+    margin: 7%;
+}
+
+@media only screen and (min-width: 540px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+    }
 }
 
 /*
